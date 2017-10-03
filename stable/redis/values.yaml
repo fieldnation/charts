@@ -31,7 +31,7 @@ args:
 ##
 persistence:
   enabled: true
-
+  mountPath: /bitnami/redis 
   ## A manually managed Persistent Volume and Claim
   ## Requires persistence.enabled: true
   ## If defined, PVC must be created manually before volume will be bound

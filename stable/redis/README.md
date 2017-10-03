@@ -55,6 +55,7 @@ The following tables lists the configurable parameters of the Redis chart and th
 | `persistence.storageClass` | Storage class of backing PVC          | `generic`                                                 |
 | `persistence.accessMode`   | Use volume as ReadOnly or ReadWrite   | `ReadWriteOnce`                                           |
 | `persistence.size`         | Size of data volume                   | `8Gi`                                                     |
+| `persistence.mountPath`    | Path to mount volume                  | `/bitnami/redis`                                          |
 | `resources`                | CPU/Memory resource requests/limits   | Memory: `256Mi`, CPU: `100m`                              |
 | `metrics.enabled`          | Start a side-car prometheus exporter  | `false`                                                   |
 | `metrics.image`            | Exporter image                        | `oliver006/redis_exporter`                                |
